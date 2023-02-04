@@ -1,0 +1,41 @@
+{
+  "name": "pretilint",
+  "version": "1.0.0",
+  "description": "Effortless ESLint & Prettier setup",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "pretilint": "index.js"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "files": [
+    "./index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "eslin",
+    "prettier",
+    "linting",
+    "code quality",
+    "code formatting",
+    "coding standards"
+  ],
+  "author": "Reny Pacheco",
+  "license": "ISC",
+  "dependencies": {
+    "execa": "^6.1.0",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^9.1.4",
+    "ora": "^6.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3"
+  }
+}
