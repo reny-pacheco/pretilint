@@ -86,11 +86,9 @@ const devDependencies = [
   'eslint-plugin-prettier@4.2.1'
 ];
 
-const run = async () => {
+(async () => {
   const packageManager = await promptPackageManager();
   await addConfigs();
   await installDevDependencies(packageManager, devDependencies);
   displayDevDependencies(devDependencies);
-};
-
-run();
+})();
