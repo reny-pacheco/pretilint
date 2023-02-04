@@ -15,7 +15,7 @@
     "README.md"
   ],
   "keywords": [
-    "eslin",
+    "eslint",
     "prettier",
     "linting",
     "code quality",
@@ -23,6 +23,10 @@
     "coding standards"
   ],
   "author": "Reny Pacheco",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reny-pacheco/pretilint"
+  },
   "license": "ISC",
   "dependencies": {
     "execa": "^6.1.0",
