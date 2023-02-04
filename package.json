@@ -1,6 +1,6 @@
 {
   "name": "pretilint",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Effortless ESLint & Prettier setup",
   "main": "index.js",
   "type": "module",
@@ -12,6 +12,7 @@
   },
   "files": [
     "./index.js",
+    "./config",
     "README.md"
   ],
   "keywords": [
